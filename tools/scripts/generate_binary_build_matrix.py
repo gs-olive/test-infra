@@ -21,14 +21,14 @@ from typing import Dict, List, Optional, Tuple
 mod = sys.modules[__name__]
 
 PYTHON_ARCHES_DICT = {
-    "nightly": ["3.8", "3.9", "3.10", "3.11", "3.12"],
-    "test": ["3.8", "3.9", "3.10", "3.11", "3.12"],
-    "release": ["3.8", "3.9", "3.10", "3.11", "3.12"],
+    "nightly": ["3.9"],
+    "test": ["3.9"],
+    "release": ["3.9"],
 }
 CUDA_ARCHES_DICT = {
-    "nightly": ["11.8", "12.1"],
-    "test": ["11.8", "12.1"],
-    "release": ["11.8", "12.1"],
+    "nightly": ["12.1"],
+    "test": ["12.1"],
+    "release": ["12.1"],
 }
 ROCM_ARCHES_DICT = {
     "nightly": ["5.7", "6.0"],
