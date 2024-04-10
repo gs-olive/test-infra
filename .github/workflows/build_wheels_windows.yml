@@ -77,7 +77,7 @@ jobs:
       CU_VERSION: ${{ matrix.desired_cuda }}
       UPLOAD_TO_BASE_BUCKET: ${{ matrix.upload_to_base_bucket }}
     name: ${{ matrix.build_name }}
-    runs-on: windows.8xlarge.nvidia.gpu.nonephemeral
+    runs-on: windows.8xlarge.nvidia.gpu
     defaults:
       run:
         shell: bash -l {0}
